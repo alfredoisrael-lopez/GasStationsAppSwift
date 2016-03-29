@@ -14,6 +14,22 @@
 		A5A7A4FA1CA7989E0093E21E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A7A4F81CA7989E0093E21E /* LaunchScreen.storyboard */; };
 		A5A7A5051CA7989E0093E21E /* GasStationsAppSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A7A5041CA7989E0093E21E /* GasStationsAppSwiftTests.swift */; };
 		A5A7A5101CA7989F0093E21E /* GasStationsAppSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A7A50F1CA7989F0093E21E /* GasStationsAppSwiftUITests.swift */; };
+		A5A7A5241CA799060093E21E /* IBMMobileFirstPlatformFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A7A51F1CA799060093E21E /* IBMMobileFirstPlatformFoundation.framework */; };
+		A5A7A5251CA799060093E21E /* IBMMobileFirstPlatformFoundationJSONStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A7A5201CA799060093E21E /* IBMMobileFirstPlatformFoundationJSONStore.framework */; };
+		A5A7A5261CA799060093E21E /* openssl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A7A5211CA799060093E21E /* openssl.framework */; };
+		A5A7A5271CA799060093E21E /* SQLCipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A7A5221CA799060093E21E /* SQLCipher.framework */; };
+		A5A7A5281CA799060093E21E /* Localizations.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A5A7A5231CA799060093E21E /* Localizations.bundle */; };
+		A5A7A52B1CA799250093E21E /* worklight.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5A7A52A1CA799250093E21E /* worklight.plist */; };
+		A5A7A52D1CA799CE0093E21E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A7A52C1CA799CE0093E21E /* SystemConfiguration.framework */; };
+		A5A7A52F1CA799DA0093E21E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A7A52E1CA799DA0093E21E /* MobileCoreServices.framework */; };
+		A5A7A5311CA799E60093E21E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A7A5301CA799E60093E21E /* CoreData.framework */; };
+		A5A7A5331CA799F10093E21E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A7A5321CA799F10093E21E /* CoreLocation.framework */; };
+		A5A7A5351CA799FA0093E21E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A7A5341CA799FA0093E21E /* Security.framework */; };
+		A5A7A5371CA79A260093E21E /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A7A5361CA79A260093E21E /* libstdc++.6.tbd */; };
+		A5A7A5391CA79A310093E21E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A7A5381CA79A310093E21E /* libz.tbd */; };
+		A5A7A53B1CA79A430093E21E /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A7A53A1CA79A430093E21E /* libc++.tbd */; };
+		A5A7A53E1CA7BF8E0093E21E /* GasStationListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A7A53D1CA7BF8E0093E21E /* GasStationListener.swift */; };
+		A5A7A5431CA7CEE10093E21E /* Gas Station-50.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A7A5421CA7CEE10093E21E /* Gas Station-50.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +63,24 @@
 		A5A7A50B1CA7989F0093E21E /* GasStationsAppSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GasStationsAppSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A7A50F1CA7989F0093E21E /* GasStationsAppSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasStationsAppSwiftUITests.swift; sourceTree = "<group>"; };
 		A5A7A5111CA7989F0093E21E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5A7A51F1CA799060093E21E /* IBMMobileFirstPlatformFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IBMMobileFirstPlatformFoundation.framework; sourceTree = "<group>"; };
+		A5A7A5201CA799060093E21E /* IBMMobileFirstPlatformFoundationJSONStore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IBMMobileFirstPlatformFoundationJSONStore.framework; sourceTree = "<group>"; };
+		A5A7A5211CA799060093E21E /* openssl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = openssl.framework; sourceTree = "<group>"; };
+		A5A7A5221CA799060093E21E /* SQLCipher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SQLCipher.framework; sourceTree = "<group>"; };
+		A5A7A5231CA799060093E21E /* Localizations.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Localizations.bundle; sourceTree = "<group>"; };
+		A5A7A52A1CA799250093E21E /* worklight.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = worklight.plist; sourceTree = "<group>"; };
+		A5A7A52C1CA799CE0093E21E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A5A7A52E1CA799DA0093E21E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A5A7A5301CA799E60093E21E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A5A7A5321CA799F10093E21E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A5A7A5341CA799FA0093E21E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A5A7A5361CA79A260093E21E /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
+		A5A7A5381CA79A310093E21E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A5A7A53A1CA79A430093E21E /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		A5A7A53C1CA79C030093E21E /* MobileFirstLinker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileFirstLinker.h; sourceTree = "<group>"; };
+		A5A7A53D1CA7BF8E0093E21E /* GasStationListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GasStationListener.swift; sourceTree = "<group>"; };
+		A5A7A53F1CA7C7F20093E21E /* GasStationsAppSwift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = GasStationsAppSwift.entitlements; sourceTree = "<group>"; };
+		A5A7A5421CA7CEE10093E21E /* Gas Station-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gas Station-50.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +88,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5A7A53B1CA79A430093E21E /* libc++.tbd in Frameworks */,
+				A5A7A5391CA79A310093E21E /* libz.tbd in Frameworks */,
+				A5A7A5371CA79A260093E21E /* libstdc++.6.tbd in Frameworks */,
+				A5A7A5351CA799FA0093E21E /* Security.framework in Frameworks */,
+				A5A7A5331CA799F10093E21E /* CoreLocation.framework in Frameworks */,
+				A5A7A5311CA799E60093E21E /* CoreData.framework in Frameworks */,
+				A5A7A52F1CA799DA0093E21E /* MobileCoreServices.framework in Frameworks */,
+				A5A7A52D1CA799CE0093E21E /* SystemConfiguration.framework in Frameworks */,
+				A5A7A5261CA799060093E21E /* openssl.framework in Frameworks */,
+				A5A7A5251CA799060093E21E /* IBMMobileFirstPlatformFoundationJSONStore.framework in Frameworks */,
+				A5A7A5271CA799060093E21E /* SQLCipher.framework in Frameworks */,
+				A5A7A5241CA799060093E21E /* IBMMobileFirstPlatformFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +123,17 @@
 		A5A7A4E31CA7989E0093E21E = {
 			isa = PBXGroup;
 			children = (
+				A5A7A53C1CA79C030093E21E /* MobileFirstLinker.h */,
+				A5A7A53A1CA79A430093E21E /* libc++.tbd */,
+				A5A7A5381CA79A310093E21E /* libz.tbd */,
+				A5A7A5361CA79A260093E21E /* libstdc++.6.tbd */,
+				A5A7A5341CA799FA0093E21E /* Security.framework */,
+				A5A7A5321CA799F10093E21E /* CoreLocation.framework */,
+				A5A7A5301CA799E60093E21E /* CoreData.framework */,
+				A5A7A52E1CA799DA0093E21E /* MobileCoreServices.framework */,
+				A5A7A52C1CA799CE0093E21E /* SystemConfiguration.framework */,
+				A5A7A5291CA799100093E21E /* Resources */,
+				A5A7A51D1CA799060093E21E /* WorklightAPI */,
 				A5A7A4EE1CA7989E0093E21E /* GasStationsAppSwift */,
 				A5A7A5031CA7989E0093E21E /* GasStationsAppSwiftTests */,
 				A5A7A50E1CA7989F0093E21E /* GasStationsAppSwiftUITests */,
@@ -97,12 +154,15 @@
 		A5A7A4EE1CA7989E0093E21E /* GasStationsAppSwift */ = {
 			isa = PBXGroup;
 			children = (
+				A5A7A5421CA7CEE10093E21E /* Gas Station-50.png */,
+				A5A7A53F1CA7C7F20093E21E /* GasStationsAppSwift.entitlements */,
 				A5A7A4EF1CA7989E0093E21E /* AppDelegate.swift */,
 				A5A7A4F11CA7989E0093E21E /* ViewController.swift */,
 				A5A7A4F31CA7989E0093E21E /* Main.storyboard */,
 				A5A7A4F61CA7989E0093E21E /* Assets.xcassets */,
 				A5A7A4F81CA7989E0093E21E /* LaunchScreen.storyboard */,
 				A5A7A4FB1CA7989E0093E21E /* Info.plist */,
+				A5A7A53D1CA7BF8E0093E21E /* GasStationListener.swift */,
 			);
 			path = GasStationsAppSwift;
 			sourceTree = "<group>";
@@ -123,6 +183,34 @@
 				A5A7A5111CA7989F0093E21E /* Info.plist */,
 			);
 			path = GasStationsAppSwiftUITests;
+			sourceTree = "<group>";
+		};
+		A5A7A51D1CA799060093E21E /* WorklightAPI */ = {
+			isa = PBXGroup;
+			children = (
+				A5A7A51E1CA799060093E21E /* Frameworks */,
+				A5A7A5231CA799060093E21E /* Localizations.bundle */,
+			);
+			path = WorklightAPI;
+			sourceTree = "<group>";
+		};
+		A5A7A51E1CA799060093E21E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5A7A51F1CA799060093E21E /* IBMMobileFirstPlatformFoundation.framework */,
+				A5A7A5201CA799060093E21E /* IBMMobileFirstPlatformFoundationJSONStore.framework */,
+				A5A7A5211CA799060093E21E /* openssl.framework */,
+				A5A7A5221CA799060093E21E /* SQLCipher.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5A7A5291CA799100093E21E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A5A7A52A1CA799250093E21E /* worklight.plist */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +281,15 @@
 				TargetAttributes = {
 					A5A7A4EB1CA7989E0093E21E = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = F5G2U8VLD8;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					A5A7A4FF1CA7989E0093E21E = {
 						CreatedOnToolsVersion = 7.3;
@@ -229,9 +326,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5A7A5281CA799060093E21E /* Localizations.bundle in Resources */,
 				A5A7A4FA1CA7989E0093E21E /* LaunchScreen.storyboard in Resources */,
+				A5A7A5431CA7CEE10093E21E /* Gas Station-50.png in Resources */,
 				A5A7A4F71CA7989E0093E21E /* Assets.xcassets in Resources */,
 				A5A7A4F51CA7989E0093E21E /* Main.storyboard in Resources */,
+				A5A7A52B1CA799250093E21E /* worklight.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +358,7 @@
 			files = (
 				A5A7A4F21CA7989E0093E21E /* ViewController.swift in Sources */,
 				A5A7A4F01CA7989E0093E21E /* AppDelegate.swift in Sources */,
+				A5A7A53E1CA7BF8E0093E21E /* GasStationListener.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,8 +434,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/WorklightAPI/Frameworks";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -352,6 +455,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -378,8 +482,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/WorklightAPI/Frameworks";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -390,6 +496,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -399,6 +506,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GasStationsAppSwift/GasStationsAppSwift.entitlements;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WorklightAPI/Frameworks",
+				);
 				INFOPLIST_FILE = GasStationsAppSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.mx.techsales.GasStationsAppSwift;
@@ -410,6 +522,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GasStationsAppSwift/GasStationsAppSwift.entitlements;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WorklightAPI/Frameworks",
+				);
 				INFOPLIST_FILE = GasStationsAppSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.mx.techsales.GasStationsAppSwift;
